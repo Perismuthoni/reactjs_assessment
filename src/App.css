@@ -1,0 +1,89 @@
+.web {
+  background-color: lightgrey;
+  margin-top: 0%;
+  height: 100%;
+}
+.App {
+  background-color: white;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  color: gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0%;
+  border: 5px solid lightgray;
+  border-top: 30px solid lightgray;
+}
+
+.search:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-family: "FontAwesome";
+  content: "\f002";
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.searchTerm {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px gray solid;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  padding: 5px;
+  height: 40px;
+
+  outline: none;
+}
+.row {
+  width: 100%;
+  display: inline-block;
+  border-bottom: 0.5px solid lightgray;
+}
+.column {
+  float: left;
+  position: relative;
+}
+.left {
+  width: 30%;
+}
+.right {
+  width: 70%;
+  margin-bottom: 15px;
+}
+.names {
+  text-transform: uppercase;
+  color: black;
+}
+.newtag {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: fit-content;
+  border-bottom: 3px solid lightgray;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  padding: 5px;
+  height: 40px;
+  outline: none;
+}
+.testbutton {
+  align-self: right;
+  align-content: flex-end;
+  border: 0px;
+  background-color: #fff;
+  font-size: larger;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
